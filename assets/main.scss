@@ -1,0 +1,30 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+/*
+  game-wrapper is a div that helps preserve the aspect ratio of our game by
+  leveraging percentage-based padding.
+*/
+.game-wrapper {
+    position: relative;
+    width: 450px;
+    height: 360px;
+    padding: 0; 
+    overflow: hidden;
+}
+
+/*
+  game-frame is a div that tells our iframe to take up all of the
+  space it's allowed to - the game-wrapper will set the bounds.
+*/
+.game-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}

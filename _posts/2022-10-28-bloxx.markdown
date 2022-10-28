@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "Bloxx - My Tetris Clone made with Godot"
+#date:   2022-10-28 15:56:11 +0200
+---
+Hello,
+
+This is my first post on my brand new github.io site.
+
+Here, you will find posts about my favorites IT subjects such as Programming Language, Game Developpement and Tips.
+
+But for the moment, just played with my tetris game :
+
+- Left Arrow / Q    : Move Left
+- Right Arrow / D   : Move Right
+- Up Arrow / A      : Rotate Right
+- E                 : Rotate Left
+- Down Arrow / S    : Move Down
+- Space :   Drop the piece
+- H / Z :   Hold/Release the piece
+- P to Pause the game
+
+<center>
+<div class="game-wrapper">
+    <iframe src="/assets/Bloxx/BloxxHTML.html" class="game-frame" title="Bloxx - Tetris Like"></iframe>
+</div>
+</center>
